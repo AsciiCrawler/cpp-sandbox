@@ -1,0 +1,3 @@
+/home/fedora/Documents/dev/cpp-sandbox/hello-triangle/build/CMakeFiles/main.dir
+/home/fedora/Documents/dev/cpp-sandbox/hello-triangle/build/CMakeFiles/edit_cache.dir
+/home/fedora/Documents/dev/cpp-sandbox/hello-triangle/build/CMakeFiles/rebuild_cache.dir

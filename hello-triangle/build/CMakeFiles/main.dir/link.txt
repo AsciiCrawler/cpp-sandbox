@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++14 -lSDL2 -ldl CMakeFiles/main.dir/main.cpp.o CMakeFiles/main.dir/includes/glad/glad.c.o CMakeFiles/main.dir/src/benchmark.cpp.o CMakeFiles/main.dir/src/utilities.cpp.o -o main  /usr/lib64/libSDL2main.a /usr/lib64/libSDL2-2.0.so.0.2600.3  -ldl
