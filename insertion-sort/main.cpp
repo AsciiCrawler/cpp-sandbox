@@ -13,18 +13,18 @@ void printArray(std::vector<int> &arr)
 
 void insertionSort(std::vector<int> &arr)
 {
-    for (size_t i = 1; i < arr.size(); i++)
+    for (auto it = arr.begin() + 1; it < arr.end(); it++)
     {
-        int key = arr[i];
-        int j = i - 1;
+        int key = *it;
+        auto j = (it - 1);
 
-        while (j >= 0 && arr[j] > key)
+        while (j >= arr.begin() && *j > key)
         {
-            arr[j+1] = arr[j];
+            *(j + 1) = *j;
             --j;
         }
 
-        arr[j+1] = key;
+        *(j + 1 ) = key;
     }
 }
 
